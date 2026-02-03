@@ -62,7 +62,7 @@ params:
   title: "Shivam Profile"
   description: The site is about me.
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: "/logo-2.svg"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -135,9 +135,9 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Shivam."
-    subtitle: "I program and develop robots"
-    content: "A passionate robotics and automation engineer. I tend to make use of open-source technologies to develop and program robots both in simulation and real world - which look realistic, and function correctly."
-    image: /images/hero.svg
+    subtitle: "I develop and program robots"
+    content: "A passionate robotics and automation engineer. I tend to make use of open-source technologies to design, develop and program robots both in simulation and real world - which look realistic, and function correctly."
+    image: /images/robots.png
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
