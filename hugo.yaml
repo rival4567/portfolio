@@ -144,7 +144,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "/documents/Shivam-CV.pdf"
       download: true
       newPage: false
     socialLinks:
@@ -170,12 +170,30 @@ params:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "ROS2"
+        - "Isaac Sim"
+        - "Gazebo"
+        - "URDF"
+        - "XACRO"
+        - "Nav2"
+        - "SLAM"
+        - "Virtual Reality"
+        - "OpenCV"
+        - "PCL"
+        - "LiDAR"
+        - "Vision"
+        - "SensorFusion"
+        - "Linux"
+        - "Docker"
+        - "LXC Containers"
+        - "Git"
+        - "Python"
+        - "C++"
+        - "Javascript"
+        - "Markdown"
+        - "MATLAB"
+        - "Web development"
+
 
   # Experience
   experience:
