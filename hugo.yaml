@@ -281,13 +281,16 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "Master of Engineering M.Eng."
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "Technische Hochschule Deggendorf - Technologie Campus Cham"
+          url: "https://th-deg.de"
+        date: "2022 - 2024"
+        GPA: "1.8 out of 5.0"
         content: |-
+          Master Thesis
+          - *Robotic Workcell for Automated Bending Process*
+
           Extracurricular Activities
             - Lorem ipsum dolor sit amet consectetur adipisicing elit.
             - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
