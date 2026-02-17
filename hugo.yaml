@@ -12,7 +12,7 @@ outputs:
     - "HTML"
     - "RSS"
 
-enableRobotsTXT: true
+enableRobotsTXT: true 
 
 #services:
   #googleAnalytics:
@@ -40,15 +40,6 @@ Menus:
       title: Gallery
       url: /gallery
       weight: 2
-    - identifier: impressum
-      name: "Impressum"
-      url: "/impressum"
-      weight: 98
-    - identifier: privacy
-      name: "Privacy Policy"
-      url: "/privacy"
-      weight: 99
-
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -366,23 +357,23 @@ params:
     enable: true
     items:
 
-      - title: "Bavarian–Israel Partnership Accelerator (BIPA)"
-        content: "Selected as one of the international participants for the BIPA 2022 program in Be’er Sheva, Israel — collaborating on innovation, problem‑solving, and rapid prototyping in a multi‑disciplinary global team."
+      - title: "Bavarian-Israel Partnership Accelerator (BIPA)"
+        content: "Selected as one of the international participants for the BIPA 2022 program in Be'er Sheva, Israel — collaborating on innovation, problem-solving, and rapid prototyping in a multi-disciplinary global team."
         image: /images/achievement.jpg
 
-      - title: "E‑Yantra Robotics Competition – 4th Place"
-        content: "Secured 4th position out of 470 teams in IIT Bombay’s national robotics competition (2020–21) by designing and implementing high‑reliability autonomous robot behaviors and algorithms."
+      - title: "E-Yantra Robotics Competition - 4th Place"
+        content: "Secured 4th position out of 470 teams in IIT Bombay's national robotics competition (2020-21) by designing and implementing high-reliability autonomous robot behaviors and algorithms."
         image: /images/achievement.jpg
 
-      - title: "Summer School – Mobile & Collaborative Robotics"
-        content: "Completed hands‑on summer school in Cham, Germany focusing on mobile robotics, multi‑robot systems, and collaborative robot applications."
+      - title: "Summer School - Mobile & Collaborative Robotics"
+        content: "Completed hands-on summer school in Cham, Germany focusing on mobile robotics, multi-robot systems, and collaborative robot applications."
         image: /images/achievement.jpg
 
-      - title: "Summer School – Virtual Commissioning & Digital Twins"
+      - title: "Summer School - Virtual Commissioning & Digital Twins"
         content: "Gained experience in industrial digital twin workflows during a program in Pilsen, Czech Republic, working with virtual commissioning and simulation-driven automation."
         image: /images/achievement.jpg
 
-      - title: "Gold Medal – Bachelor of Technology"
+      - title: "Gold Medal - Bachelor of Technology"
         content: "Awarded Gold Medal for securing top rank in the Mechatronics Engineering program at GGSIPU, New Delhi."
         image: /images/achievement.jpg
 
@@ -538,6 +529,14 @@ params:
       email: "mailto:shivam0.mechatronics@gmail.com"
       twitter: ""
       facebook: ""
+    legal:
+      enable: true
+      links:
+        - name: "Impressum"
+          url: "/impressum"
+        - name: "Privacy Policy"
+          url: "/privacy"
+
 
   # List pages like blogs and posts
   listPages:

@@ -15,8 +15,7 @@ Parkstrasse 1,
 93413 Cham, Germany  
 
 **Contact:**  
-Email: shivam0.mechatronics@gmail.com  
-Phone:
+Email: shivam0(dot)mechatronics(at)gmail(dot)com  
 
 **Responsible for content according to § 18 Abs. 2 MStV:**  
 Shivam Shivam
@@ -28,6 +27,6 @@ Despite careful content control, I assume no liability for external links.
 The operators of linked pages are solely responsible for their content.
 
 ### Copyright
-All content on this website is protected by copyright.  
+All content on this website is protected by German copyright law.  
 Use, distribution, or reproduction requires prior written
 permission.
