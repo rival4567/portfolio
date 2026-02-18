@@ -1,4 +1,4 @@
-# Portolio
+# Portfolio
 
 - Contains the portfolio data for my website.
 - The theme comes from this -> https://github.com/gurusabarish/hugo-profile

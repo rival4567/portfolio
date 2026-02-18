@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pose Estimation on Shivam | Robotics &amp; Automation Engineer</title>
+    <link>http://localhost:1313/tags/pose-estimation/</link>
+    <description>Recent content in Pose Estimation on Shivam | Robotics &amp; Automation Engineer</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/pose-estimation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Synthetic Data Generation and DOPE-Based Pose Estimation for Industrial Parts Using a Digital Twin</title>
+      <link>http://localhost:1313/blogs/dope-training/</link>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/dope-training/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;&#xA;&lt;p&gt;This article presents the results of a &lt;strong&gt;synthetic‑data‑based 6D pose estimation pipeline&lt;/strong&gt; using &lt;strong&gt;Deep Object Pose Estimation (DOPE)&lt;/strong&gt;, trained on Isaac Sim–generated datasets for a custom object (&lt;em&gt;Mustertasse&lt;/em&gt;). A 50,000‑image synthetic dataset was created using domain randomization, and the trained model was validated in both simulated and real conditions. The results demonstrate &lt;strong&gt;accurate sim‑to‑real transfer&lt;/strong&gt;, supporting the validity of the digital twin as a perception-test environment. &lt;a href=&#34;https://thdegde-my.sharepoint.com/personal/shivam_shivam_th-deg_de/Documents/Microsoft%20Copilot%20Chat%20Files/digital-twin.pdf&#34;&gt;1&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Reliable 6D pose estimation is essential for robotic manipulation in industrial settings. Synthetic data generated in a digital twin allows scalable training of detection and pose estimation models without costly manual labeling. This study evaluates the DOPE model trained exclusively on Isaac‑Sim‑generated data and assesses its performance across simulated and physical environments. &lt;a href=&#34;https://thdegde-my.sharepoint.com/personal/shivam_shivam_th-deg_de/Documents/Microsoft%20Copilot%20Chat%20Files/digital-twin.pdf&#34;&gt;1&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

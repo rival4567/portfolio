@@ -1,6 +1,6 @@
 ---
 title: "Privacy Policy (Datenschutzerklärung)"
-layout: "single"
+layout: "about"
 tags: []
 ---
 
@@ -29,4 +29,4 @@ Functional cookies from Hugo may be used for basic site functionality.
 You have the right to access, delete, and correct your personal data.
 
 ### Contact
-For privacy requests, email: **shivam0.mechatronics@gmail.com**
+For privacy requests, email: **shivam(at)jleet(dot)com**

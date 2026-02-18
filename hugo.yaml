@@ -1,7 +1,331 @@
 baseURL: "https://shivam.jleet.com"
-languageCode: "en-us"
 title: "Shivam | Robotics & Automation Engineer"
 theme: hugo-profile
+
+defaultContentLanguage: "en"
+defaultContentLanguageInSubdir: false
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    contentDir: "content"
+    menu:
+      main:
+        - identifier: blog
+          name: Blog
+          title: Blog posts
+          url: /blogs
+          weight: 1
+        - identifier: gallery
+          name: Gallery
+          title: Image gallery
+          url: /gallery
+          weight: 2
+  de:
+    languageName: "Deutsch"
+    weight: 2
+    contentDir: "content/de"
+    menu:
+      main:
+        - identifier: blog
+          name: Blog
+          title: Blog-Beiträge
+          url: /de/blogs
+          weight: 1
+        - identifier: gallery
+          name: Galerie
+          title: Bildergalerie
+          url: /de/gallery
+          weight: 2
+    params:
+      # Hero
+      hero:
+        enable: true
+        intro: "Hallo, mein Name ist"
+        title: "Shivam."
+        subtitle: "Ich entwickle und programmiere Roboter"
+        content: "Ein Ingenieur für Robotik und Automatisierung mit Erfahrung in ROS2, Isaac Sim, robotischen Fertigungszellen und digitalen Zwillingen. Ich entwerfe, entwickle und programmiere Roboter mithilfe von Open-Source-Technologien – sowohl in der Simulation als auch in realen Umgebungen."
+        image: /images/robots.png
+        bottomImage:
+          enable: true
+        button:
+          enable: true
+          name: "Lebenslauf"
+          url: "/documents/CV-Shivam.pdf"
+          download: true
+          newPage: false
+        socialLinks:
+          fontAwesomeIcons:
+            - icon: fab fa-github
+              url: https://github.com/rival4567
+            - icon: fab fa-linkedin
+              url: https://linkedin.com/in/shivam-me
+            - icon: fas fa-envelope
+              url: "mailto:shivam@jleet.com"
+
+      # About
+      about:
+        enable: true
+        image: "/images/me.png"
+        content: |-
+          Ich bin ein Ingenieur für Robotik und Automatisierung, spezialisiert auf ROS/ROS2, Isaac Sim, robotische Fertigungszellen und fortgeschrittene Robotersimulationen.
+          Ich habe praktische Erfahrung mit Industrierobotern wie Universal Robots (UR), Kassow, Yaskawa Motoman, mobilen Robotern von MiR, sowie Systemen von Fanuc und ABB.
+          
+          Mit 4 Jahren Erfahrung in der robotischen Forschung und Entwicklung habe ich an Multi-Roboter-Koordination, Automatisierung industrieller Prozesse und simulationsgetriebener Entwicklung gearbeitet.
+
+          Derzeit arbeite ich als Wissenschaftlicher Mitarbeiter im Bereich Intelligente Robotik am TC Cham, wo ich Roboterinterfaces, digitale Zwillinge und Simulationstools entwickle, die Forschungsabläufe in industriellen Umgebungen beschleunigen.
+          Ich entwerfe gerne praxisorientierte Robotiklösungen, optimiere industrielle Aufgaben durch Automatisierung und erkunde Open-Source-Technologien aus den Bereichen Robotik und KI.
+
+        skills:
+          enable: true
+          title: "Technologien, mit denen ich arbeite:"
+          items:
+            - "ROS2"
+            - "Isaac Sim"
+            - "Gazebo"
+            - "URDF"
+            - "Nav2"
+            - "SLAM"
+            - "OpenCV"
+            - "LiDAR"
+            - "SensorFusion"
+            - "Linux"
+            - "Docker"
+            - "Python"
+            - "C++"
+            - "Git"
+            - "Industriekameras"
+            - "Roboterprogrammierung"
+            - "Automatisierung"
+            - "Digital‑Twin‑Entwicklung"
+            - "Blender"
+            - "Künstliche Intelligenz"
+
+      # Experience
+      experience:
+        enable: true
+        items:
+          - company: "TH Deggendorf"
+            companyUrl: "https://www.th-deg.de"
+            jobs:
+              - name: "Wissenschaftlicher Mitarbeiter – Intelligente Robotik"
+                date: "Okt 2024 – heute"
+                content: |-
+                  - Entwicklung einer zentralisierten ROS2‑basierten Schnittstelle zur koordinierten Steuerung mehrerer Roboter zur Verbesserung der Forschungseffizienz.
+                  - Aufbau hochwertiger digitaler Zwillinge in NVIDIA Isaac Sim zur Beschleunigung von Entwicklungszyklen.
+                  - Entwurf modularer Simulationspipelines für schnelles Testen von Automatisierungsstrategien.
+                  - Durchführung von Experimenten mit UR-, Yaskawa‑, Fanuc‑, ABB‑ und Kassow‑Robotern für Automatisierungsabläufe.
+                  - Erstellung technischer Berichte, Forschungsdokumentationen und Versuchsprotokolle für Industrie‑ und Hochschulpartner; Vorbereitung von Materialien für Projektförderanträge.
+                  - Initiierung und Organisation eines monatlichen Wissensaustauschs zur Förderung neuer Robotikthemen im Team.
+                info:
+                  content: "ROS2, Isaac Sim, Python, C++, Docker, Linux"
+
+              - name: "Wissenschaftliche Hilfskraft – Roboterprogrammierung"
+                date: "Nov 2022 – Sep 2024"
+                content: |-
+                  - Automatisierung einer Biegefertigungszelle mit einem Industrieroboter, wodurch sich der Durchsatz gegenüber der manuellen Bearbeitung verdoppelte.
+                  - Erreichen einer Wiederholgenauigkeit von ~0,5 mm mithilfe industrieller Bildverarbeitungssysteme, Reduzierung von Ausschussmaterial.
+                  - Entwicklung eines webbasierten Dashboards zur Fernüberwachung von Robotern.
+                  - Integration von Sensoren, Aktuatoren und Industriekameras in Echtzeit-Monitoring-Pipelines.
+                info:
+                  content: "Roboterprogrammierung, ROS, C++, HTML, React, Industrielle Bildverarbeitung"
+
+          - company: "IIT Bombay"
+            companyUrl: "https://www.iitb.ac.in"
+            jobs:
+              - name: "Robotics Project Developer (Praktikum)"
+                date: "Mai 2021 – Jul 2021"
+                content: |-
+                  - Erstellung und Entwicklung von ROS‑Simulationsprojekten für die nächste Generation eines Robotikwettbewerbs.
+                  - Verfassen strukturierter Dokumentationen für Wettbewerbsszenarien und zur Einarbeitung neuer Studierendenteams.
+                  - Beitrag zu Tests und Validierung von Roboterverhalten in Simulationen.
+                info:
+                  content: "ROS, Gazebo, Python, Markdown, mkdocs"
+
+      # Education
+      education:
+        enable: true
+        index: false
+        items:
+          - title: "Master of Engineering in Mechatronics & Cyber-Physical Systems"
+            school:
+              name: "Technische Hochschule Deggendorf – Technologie Campus Cham"
+            date: "März 2022 – Sep 2024"
+            GPA: "1,8 von 5,0 (Deutsche Note)"
+            content: |-
+              Masterarbeit
+              - *Robotische Fertigungszelle für automatisierten Biegeprozess*
+                Entwurf und Implementierung einer automatisierten Biegezelle mit Industrieroboter zur Verbesserung der Wiederholgenauigkeit und des Durchsatzes.
+
+              Fallstudien:
+              - Digitaler Zwilling des Campus in VR.
+              - Turtlebot3‑Navigation mit Intel Realsense D435i.
+              - ROS‑Steuerung und Navigation eines UR5e mit MiR‑Roboter (Simulation).
+              - Topologieoptimierung eines robotischen Greifers.
+
+              Zusatzaktivitäten:
+              - Bavarian‑Israel Partnership Accelerator (BIPA) 2022
+              - Summer School: Mobile & Collaborative Robotics (Cham, Deutschland)
+              - Summer School: Virtual Commissioning / Digital Twin (Pilsen, Tschechien)
+
+          - title: "Bachelor of Technology in Mechatronics Engineering"
+            school:
+              name: "Guru Gobind Singh Indraprastha University (GGSIPU)"
+            date: "Aug 2017 – Jun 2021"
+            GPA: "9,6 von 10 (Goldmedaille – Jahrgangsbester)"
+            content: |-
+              Höhepunkte:
+              - Jahrgangsbester (Goldmedaille).
+              - Durchführung mehrerer Robotik‑ und Embedded‑System‑Projekte.
+              - Abschlussprojekt: Echtzeit‑Selbstbalancierender Roboter mit LQR-Kontroller.
+
+              Wettbewerbe:
+              - E‑Yantra Robotikwettbewerb (IIT Bombay): 4. Platz von 470 Teams.
+
+      # Achievements
+      achievements:
+        enable: true
+        items:
+          - title: "Bavarian‑Israel Partnership Accelerator (BIPA)"
+            content: "Ausgewählt als internationaler Teilnehmer des BIPA‑Programms 2022 in Be’er Sheva, Israel – Zusammenarbeit in den Bereichen Innovation, Problemlösung und Rapid Prototyping in einem interdisziplinären globalen Team."
+            image: /images/achievement.jpg
+
+          - title: "E‑Yantra Robotikwettbewerb – 4. Platz"
+            content: "Erreichte den 4. Platz von 470 Teams im nationalen Robotikwettbewerb des IIT Bombay (2020–21) durch Entwicklung zuverlässiger autonomer Roboteralgorithmen."
+            image: /images/achievement.jpg
+
+          - title: "Summer School – Mobile & Collaborative Robotics"
+            content: "Absolvierte eine praxisorientierte Summer School in Cham, Deutschland mit Fokus auf mobile Robotik, Multi‑Robotersysteme und kollaborative Robotik."
+            image: /images/achievement.jpg
+
+          - title: "Summer School – Virtuelle Inbetriebnahme & Digitale Zwillinge"
+            content: "Erweiterte Kenntnisse in industriellen Digital‑Twin‑Workflows in einem Programm in Pilsen, Tschechien."
+            image: /images/achievement.jpg
+
+          - title: "Goldmedaille – Bachelor of Technology"
+            content: "Auszeichnung mit der Goldmedaille für den ersten Platz im Mechatronikstudiengang an der GGSIPU, Neu‑Delhi."
+            image: /images/achievement.jpg
+
+      # Projects
+      projects:
+        enable: true
+        items:
+          - title: "ROS2 Multi‑Roboter‑Steuerschnittstelle"
+            content: |-
+              Entwicklung einer ROS2‑basierten zentralen Schnittstelle zur Koordination und Verwaltung mehrerer Roboter in Forschungsumgebungen.
+              Ermöglicht synchronisierte Aufgaben, Echtzeitüberwachung und modulare Integration heterogener Roboterplattformen.
+            featured:
+              name: Kontakt
+              link: mailto:shivam@jleet.com
+            badges:
+              - "ROS2"
+              - "C++"
+              - "Python"
+              - "Linux"
+              - "Robotik‑Middleware"
+
+          - title: "Automatisierte Biegezelle – Digitaler Zwilling & Reale Umsetzung"
+            content: |-
+              Entwurf, Programmierung und Einsatz einer industriellen Biegezelle mit 2× höherem Durchsatz und ~0,5 mm Wiederholgenauigkeit durch Bildverarbeitung.
+              Aufbau eines digitalen Zwillings in Isaac Sim zur Validierung von Trajektorien und Sicherheit.
+            featured:
+              name: E-Mail
+              link: mailto:shivam@jleet.com
+            badges:
+              - "ROS"
+              - "Roboterprogrammierung"
+              - "Bildverarbeitung"
+              - "Isaac Sim"
+              - "Digitaler Zwilling"
+
+          - title: "Framework für digitale Zwillinge (Isaac Sim)"
+            content: |-
+              Aufbau modularer Digital‑Twin‑Pipelines in NVIDIA Isaac Sim zur Simulation industrieller Arbeitsabläufe, Fertigungszellen und Sensorsysteme.
+              Ermöglicht schnelle Iteration ohne Hardware‑Stillstand.
+            featured:
+              name: Mehr erfahren
+              link: https://developer.nvidia.com/isaac-sim
+            badges:
+              - "Isaac Sim"
+              - "Simulation"
+              - "Omniverse"
+              - "Python"
+              - "Robotikzellen"
+
+          - title: "Echtzeit‑Dashboard zur Roboterüberwachung"
+            content: |-
+              Entwicklung eines leichten Web‑Dashboards zur Fernüberwachung von Roboterzuständen, Diagnose und Arbeitsfortschritt.
+              Integration von REST‑Endpunkten und WebSockets für Live‑Updates.
+            featured:
+              name: Code ansehen
+              link: https://github.com/rival4567
+            badges:
+              - "ReactJS"
+              - "HTML/CSS"
+              - "JavaScript"
+              - "ROS"
+              - "WebSockets"
+
+          - title: "Robotiksimulationsumgebung – IIT Bombay"
+            content: |-
+              Entwicklung von ROS‑ und Gazebo‑Simulationsaufgaben für einen nationalen Robotikwettbewerb, einschließlich URDF‑Modellen, Aufgabenwelten und Lernmaterialien.
+              Sicherstellung eines reibungslosen Einstiegs für hunderte teilnehmender Studierender.
+            badges:
+              - "ROS"
+              - "Gazebo"
+              - "URDF"
+              - "Python"
+              - "Simulation"
+
+      contact:
+        enable: true
+        content: |-
+          Mein Posteingang ist immer offen — egal, ob Sie eine Frage, eine Projektidee oder eine mögliche Zusammenarbeit haben.
+          Ich melde mich so schnell wie möglich zurück.
+        btnName: "E-Mail senden"
+        btnLink: "mailto:shivam@jleet.com"
+      
+      footer:
+        recentPosts:
+          path: "blogs"
+          count: 3
+          title: "Aktuelle Beiträge"
+          enable: true
+          disableFeaturedImage: false
+        socialNetworks:
+          github: https://github.com/rival4567
+          linkedin: https://linkedin.com/in/shivam-me
+          email: "mailto:shivam@jleet.com"
+          twitter: ""
+          facebook: ""
+        # List pages like blogs and posts
+        listPages:
+          disableFeaturedImage: false
+
+      # Single pages like blog and post
+      singlePages:
+        socialShare: true
+        readTime:
+          enable: true
+          content: "Minuten Lesezeit"
+        scrollprogress:
+          enable: true
+        tags:
+          openInNewTab: true
+
+      # For translations
+      terms:
+        read: "Lesen"
+        toc: "Inhaltsverzeichnis"
+        copyright: "All rights reserved"
+        pageNotFound: "Seite nicht gefunden"
+        emailText: "Bitte sehen Sie sich diese Seite an - "
+
+      datesFormat:
+        article: "Jan 2, 2006"
+        articleList: "Jan 2, 2006"
+        articleRecent: "Jan 2, 2006"
 
 outputs:
   home:
@@ -92,6 +416,25 @@ params:
 
   # color preference
   # When using hex codes for colors, quotations must be used along with the # sign
+
+  color:
+    textColor: "#1f2937"
+    secondaryTextColor: "#4b5563"
+    textLinkColor: "#2563eb"
+    backgroundColor: "#f9fafb"
+    secondaryBackgroundColor: "#e5e7eb"
+    primaryColor: "#2563eb"
+    secondaryColor: "#f3f4f6"
+
+    darkmode:
+      textColor: "#e5e7eb"
+      secondaryTextColor: "#9ca3af"
+      textLinkColor: "#93c5fd"
+      backgroundColor: "#111827"
+      secondaryBackgroundColor: "#1f2937"
+      primaryColor: "#3b82f6"
+      secondaryColor: "#1f2937"
+
   # color:
   #   textColor: "#343a40"
   #   secondaryTextColor: "#6c757d"
@@ -153,14 +496,13 @@ params:
           url: https://github.com/rival4567
         - icon: fab fa-linkedin
           url: https://linkedin.com/in/shivam-me
-      customIcons:
-        - icon: /logo-2.svg
-          url: "mailto:shivam0.mechatronics@gmail.com"
+        - icon: fas fa-envelope
+          url: "mailto:shivam@jleet.com"
 
   # About
   about:
     enable: true
-    title: "About Me"
+    # title: "About Me"
     image: "/images/me.png"
     content: |-
       I am a Robotics & Automation Engineer specializing in ROS/ROS2, Isaac Sim, robotic workcells, and advanced robotic simulations.
@@ -168,7 +510,7 @@ params:
       With 4 years of experience in robotics research and development, I have worked on multi-robot coordination, automation of industrial processes, and simulation driven development.
       
       Currently, I work as a Scientific Researcher in Intelligent Robotics at TC Cham, where I develop robot interfaces, digital twins, and simulation tools that accelerate research workflows in industrial environments.
-      I enjoy designing real-world robotic solutions, optimizing industrial tasks through automation, and exploring open-source technologies across robotics, self-hosting, and AI-powered applications.
+      I enjoy designing real-world robotic solutions, optimizing industrial tasks through automation, and exploring open-source technologies across robotics and AI solutions.
 
     skills:
       enable: true
@@ -178,7 +520,6 @@ params:
         - "Isaac Sim"
         - "Gazebo"
         - "URDF"
-        - "XACRO"
         - "Nav2"
         - "SLAM"
         - "OpenCV"
@@ -191,9 +532,10 @@ params:
         - "Git"
         - "Industrial Cameras"
         - "Robot Programming"
+        - "Automation"
         - "Digital Twin Development"
-        - "Automation/Robotic Workcells"
         - "Blender"
+        - "Artificial Intelligence"
 
   # Experience
   experience:
@@ -242,7 +584,7 @@ params:
             date: "Nov 2022 - Sep 2024"
             content: |-
               - Automated a bending workcell using an industrial robotic arm, doubling throughput compared to manual operation.
-              - Achieved ~0.5 mm repeatability on bent parts using industrial vision systems, thus reducing scrap of material.
+              - Achieved 0.5 mm repeatability on bent parts using industrial vision systems, thus reducing scrap of material.
               - Developed a web-based robot monitoring dashboard for remote supervision.
               - Integrated sensors, actuators and industrial cameras into real-time monitoring pipelines.
             info:
@@ -359,6 +701,7 @@ params:
 
       - title: "Bavarian-Israel Partnership Accelerator (BIPA)"
         content: "Selected as one of the international participants for the BIPA 2022 program in Be'er Sheva, Israel — collaborating on innovation, problem-solving, and rapid prototyping in a multi-disciplinary global team."
+        #url: https://example.com
         image: /images/achievement.jpg
 
       - title: "E-Yantra Robotics Competition - 4th Place"
@@ -377,29 +720,6 @@ params:
         content: "Awarded Gold Medal for securing top rank in the Mechatronics Engineering program at GGSIPU, New Delhi."
         image: /images/achievement.jpg
 
-  # # Achievements
-  # achievements:
-  #   enable: true
-  #   # title: "Custom Name"
-  #   items:
-  #     - title: Google kickstart runner
-  #       content: I solved all problems with optimal solution.
-  #       url: https://example.com
-  #       image: /images/achievement.jpg
-  #     - title: Facebook Hackathon Winner
-  #       content: Developed a product using Artificial Intelligence.
-  #       image: /images/achievement.jpg
-  #     - title: Hugo Profile
-  #       content: Developed a theme and getting 1K+ downloads per month.
-  #       url: "https://github.com/gurusabarish/hugo-profile"
-  #       image: /images/achievement.jpg
-  #     - title: Microsoft Imagine Runner
-  #       content: We are developed a product which can help others.
-  #     - title: Google Summer of Code
-  #       content: Contributed to a open source project.
-  #       url: https://example.com
-
-
   projects:
     enable: true
     items:
@@ -413,7 +733,7 @@ params:
         # image: /images/projects/multirobot.jpg
         featured:
           name: Contact
-          link: mailto:shivam0.mechatronics@gmail.com
+          link: mailto:shivam@jleet.com
         badges:
           - "ROS2"
           - "C++"
@@ -427,14 +747,14 @@ params:
       # ----------------------------------------------------
       # Project 2: Automated Bending Workcell (Digital Twin + Real System)
       # ----------------------------------------------------
-      - title: "Automated Bending Workcell – Digital Twin & Real Deployment"
+      - title: "Automated Bending Workcell - Digital Twin & Real Deployment"
         content: |-
           Designed, programmed, and deployed an industrial robotic bending workcell achieving 2× throughput improvement and ~0.5 mm repeatability using machine vision.  
-          Built a digital twin in Isaac Sim to validate robot trajectories and workcell safety before real‑world execution.
+          Built a digital twin in Isaac Sim to validate robot trajectories and workcell safety before real-world execution.
         # image: /images/projects/bendingcell.jpg
         featured:
           name: Email Me
-          link: mailto:shivam0.mechatronics@gmail.com
+          link: mailto:shivam@jleet.com
         badges:
           - "ROS"
           - "Robot Programming"
@@ -501,15 +821,13 @@ params:
         links:
           - icon: fas fa-cubes
             url: http://gazebosim.org
-
-
   contact:
     enable: true
     content: |
       My inbox is always open — whether you have a question, a collaboration idea, or a potential opportunity.  
       I'll do my best to get back to you as soon as possible.
     btnName: "Email Me"
-    btnLink: "mailto:shivam0.mechatronics@gmail.com"
+    btnLink: "mailto:shivam@jleet.com"
 
     # If you prefer to use Formspree instead of mailto:
     # formspree:
@@ -526,16 +844,9 @@ params:
     socialNetworks:
       github: https://github.com/rival4567
       linkedin: https://linkedin.com/in/shivam-me
-      email: "mailto:shivam0.mechatronics@gmail.com"
+      email: "mailto:shivam@jleet.com"
       twitter: ""
       facebook: ""
-    legal:
-      enable: true
-      links:
-        - name: "Impressum"
-          url: "/impressum"
-        - name: "Privacy Policy"
-          url: "/privacy"
 
 
   # List pages like blogs and posts

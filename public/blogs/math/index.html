@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
-<link rel="icon" href=/logo-2.svg type="image/gif">
+<link rel="icon" href="/logo-2.svg" type="image/gif">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,29 +28,47 @@
 
 
 
-<meta property="og:title" content="Render Math With Mathjax" />
-<meta property="og:description" content="Mathjax Math equations can be rendered using Mathjax syntax with AMS symbol support.
+<meta property="og:url" content="http://localhost:1313/blogs/math/">
+  <meta property="og:site_name" content="Shivam | Robotics & Automation Engineer">
+  <meta property="og:title" content="Render Math With Mathjax">
+  <meta property="og:description" content="Mathjax Math equations can be rendered using Mathjax syntax with AMS symbol support.
 Optionally enable this on a per-page basis by adding mathjax: true to your frontmatter.
 Then, use $$ ... $$ on a line by itself to render a block equation:
 $$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &lt; \text{negligible} $$
 The raw version is:
-$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &lt; \text{negligible} $$ Write in-line equations with \\( ." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/blogs/math/" /><meta property="article:section" content="blogs" />
-<meta property="article:published_time" content="2022-12-09T19:53:33+05:30" />
-<meta property="article:modified_time" content="2022-12-09T19:53:33+05:30" /><meta property="og:site_name" content="Shivam | Robotics &amp; Automation Engineer" />
+$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &lt; \text{negligible} $$ Write in-line equations with \\( ... \\) , like \( x^n / y \) . It’s easy!">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blogs">
+    <meta property="article:published_time" content="2022-12-09T19:53:33+05:30">
+    <meta property="article:modified_time" content="2022-12-09T19:53:33+05:30">
+    <meta property="article:tag" content="Markdown Syntax">
+    <meta property="article:tag" content="Mathjax">
+    <meta property="article:tag" content="Example">
 
 
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Render Math With Mathjax"/>
-<meta name="twitter:description" content="Mathjax Math equations can be rendered using Mathjax syntax with AMS symbol support.
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Render Math With Mathjax">
+  <meta name="twitter:description" content="Mathjax Math equations can be rendered using Mathjax syntax with AMS symbol support.
 Optionally enable this on a per-page basis by adding mathjax: true to your frontmatter.
 Then, use $$ ... $$ on a line by itself to render a block equation:
 $$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &lt; \text{negligible} $$
 The raw version is:
-$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &lt; \text{negligible} $$ Write in-line equations with \\( ."/>
+$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &lt; \text{negligible} $$ Write in-line equations with \\( ... \\) , like \( x^n / y \) . It’s easy!">
+
+
+
+
+  
+    <link rel="alternate" hreflang="en" href="http://localhost:1313/blogs/math/" title="English">
+  
+  
+  <meta property="og:locale" content="en">
+  
 
 
 <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
+<link rel="stylesheet" href="/css/language-switcher.css" media="all">
 <link rel="stylesheet" href="/css/footer.css" media="all">
 
 
@@ -58,22 +76,22 @@ $$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &
 
 <style>
     :root {
-        --text-color: #343a40;
-        --text-secondary-color: #6c757d;
-        --text-link-color: #007bff;
-        --background-color: #eaedf0;
-        --secondary-background-color: #64ffda1a;
-        --primary-color: #007bff;
-        --secondary-color: #f8f9fa;
+        --text-color: #1f2937;
+        --text-secondary-color: #4b5563;
+        --text-link-color: #2563eb;
+        --background-color: #f9fafb;
+        --secondary-background-color: #e5e7eb;
+        --primary-color: #2563eb;
+        --secondary-color: #f3f4f6;
 
          
-        --text-color-dark: #e4e6eb;
-        --text-secondary-color-dark: #b0b3b8;
-        --text-link-color-dark: #ffffff;
-        --background-color-dark: #18191a;
-        --secondary-background-color-dark: #212529;
-        --primary-color-dark: #ffffff;
-        --secondary-color-dark: #212529;
+        --text-color-dark: #e5e7eb;
+        --text-secondary-color-dark: #9ca3af;
+        --text-link-color-dark: #93c5fd;
+        --background-color-dark: #111827;
+        --secondary-background-color-dark: #1f2937;
+        --primary-color-dark: #3b82f6;
+        --secondary-color-dark: #1f2937;
     }
     body {
         font-size: 1rem;
@@ -194,7 +212,7 @@ Render Math With Mathjax | Shivam | Robotics &amp; Automation Engineer
 
             
                 <div>
-                    <input id="search" autocomplete="off" class="form-control mr-sm-2 d-none d-md-block" placeholder='Ctrl &#43; k to Search...'
+                    <input id="search" autocomplete="off" class="form-control mr-sm-2 d-none d-md-block" placeholder='Search ...'
                         aria-label="Search" oninput="searchOnChange(event)">
                 </div>
             
@@ -213,7 +231,7 @@ Render Math With Mathjax | Shivam | Robotics &amp; Automation Engineer
                     
                         <li class="nav-item navbar-text d-block d-md-none">
                             <div class="nav-link">
-                                <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='Ctrl &#43; k to Search...' aria-label="Search" oninput="searchOnChange(event)">
+                                <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='Search ...' aria-label="Search" oninput="searchOnChange(event)">
                             </div>
                         </li>
                     
@@ -221,7 +239,7 @@ Render Math With Mathjax | Shivam | Robotics &amp; Automation Engineer
                     
                     <li class="nav-item navbar-text">
                         <a class="nav-link" href="/#about" aria-label="about">
-                            About Me
+                            About
                         </a>
                     </li>
                     
@@ -288,19 +306,37 @@ Render Math With Mathjax | Shivam | Robotics &amp; Automation Engineer
                     
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/gallery" title="Gallery">
+                        <a class="nav-link" href="/gallery" title="Image gallery">
                             
                             Gallery
                         </a>
                     </li>
                     
                     
+<li class="nav-item navbar-text dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button"
+        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        
+            🌐
+            <span class="d-none d-md-inline">English</span>
+        
+    </a>
+    <div class="dropdown-menu shadow-lg rounded" aria-labelledby="languageDropdown"><a class="dropdown-item text-center nav-link active" 
+               href="/" 
+               title="English">
+                English
+            </a><a class="dropdown-item text-center nav-link" 
+               href="/de/" 
+               title="Deutsch">
+                Deutsch
+            </a></div>
+</li>
 
-                    
+
                     <li class="nav-item navbar-text">
                         
                         <div class="text-center">
-                            <button id="theme-toggle">
+                            <button id="theme-toggle" type="button" aria-label="Toggle dark mode">
                                 <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                                 </svg>
@@ -389,15 +425,18 @@ Render Math With Mathjax | Shivam | Robotics &amp; Automation Engineer
             <h5>Tags</h5>
             <ul class="tags-ul list-unstyled list-inline">
               
-              <li class="list-inline-item"><a href="http://localhost:1313/tags/markdown-syntax"
+              
+              <li class="list-inline-item"><a href="/tags/markdown-syntax"
                 target="_blank"
               >Markdown syntax</a></li>
               
-              <li class="list-inline-item"><a href="http://localhost:1313/tags/mathjax"
+              
+              <li class="list-inline-item"><a href="/tags/mathjax"
                 target="_blank"
               >Mathjax</a></li>
               
-              <li class="list-inline-item"><a href="http://localhost:1313/tags/example"
+              
+              <li class="list-inline-item"><a href="/tags/example"
                 target="_blank"
               >example</a></li>
               
@@ -505,25 +544,23 @@ Render Math With Mathjax | Shivam | Robotics &amp; Automation Engineer
             <div class="card h-100">
                 
                 <div class="card-header">
-                    <a href="/blogs/math/">
-                        <img src="/images/mathjax.png" class="card-img-top" alt="Render Math With Mathjax">
+                    <a href="/blogs/master-thesis/">
+                        <img src="/figures/robotic-workcell1.png" class="card-img-top" alt="Robotic Workcell for Automated Bending: A Vision‑Enabled 7‑Axis Cobot, PLC, and Digital‑Twin UI">
                     </a>
                 </div>
                 
                 <div class="card-body bg-transparent p-3 shadow-sm">
-                    <a href="/blogs/math/" class="primary-font card-title">
-                        <h5 class="card-title bg-transparent" title="Render Math With Mathjax">Render Math With Mathjax</h5>
+                    <a href="/blogs/master-thesis/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Robotic Workcell for Automated Bending: A Vision‑Enabled 7‑Axis Cobot, PLC, and Digital‑Twin UI">Robotic Workcell for …</h5>
                     </a>
                     <div class="card-text secondary-font">
-                        <p>Mathjax Math equations can be rendered using Mathjax syntax with AMS symbol support.
-Optionally enable this on a per-page basis by adding mathjax: true to your frontmatter.
-Then, use $$ ... $$ on a line by itself to render a block equation:
-$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow …</p>
+                        <p><h2 id="abstract">Abstract</h2>
+<p>This work demonstrates a <strong>robotic workcell</strong> that automates a <strong>sheet‑metal bending machine</strong> with a <strong>7‑axis collaborative robot</strong>, <strong>two vision sensors</strong>, and a <strong>web-based UI</strong>—the latter serving as a <strong>digital twin</strong> for visualization and monitoring. The robot performs <strong>automatic loading/unloading</strong> of sheets; a …</p></p>
                     </div>
                 </div>
                 <div class="mt-auto card-footer">
-                    <span class="float-start">Dec 9, 2022</span>
-                    <a href="/blogs/math/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    <span class="float-start">Feb 18, 2026</span>
+                    <a href="/blogs/master-thesis/" class="float-end btn btn-outline-info btn-sm">Read</a>
                 </div>
             </div>
         </div>
@@ -532,22 +569,23 @@ $$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow …</p>
             <div class="card h-100">
                 
                 <div class="card-header">
-                    <a href="/blogs/markdown-syntax/">
-                        <img src="/images/post.jpg" class="card-img-top" alt="Markdown Syntax">
+                    <a href="/blogs/dope-training/">
+                        <img src="/images/blogs/digital-twin/dope-training.png" class="card-img-top" alt="Synthetic Data Generation and DOPE-Based Pose Estimation for Industrial Parts Using a Digital Twin">
                     </a>
                 </div>
                 
                 <div class="card-body bg-transparent p-3 shadow-sm">
-                    <a href="/blogs/markdown-syntax/" class="primary-font card-title">
-                        <h5 class="card-title bg-transparent" title="Markdown Syntax">Markdown Syntax</h5>
+                    <a href="/blogs/dope-training/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Synthetic Data Generation and DOPE-Based Pose Estimation for Industrial Parts Using a Digital Twin">Synthetic Data Generation …</h5>
                     </a>
                     <div class="card-text secondary-font">
-                        <p>Paragraph Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus …</p>
+                        <p><h2 id="abstract">Abstract</h2>
+<p>This article presents the results of a <strong>synthetic‑data‑based 6D pose estimation pipeline</strong> using <strong>Deep Object Pose Estimation (DOPE)</strong>, trained on Isaac Sim–generated datasets for a custom object (<em>Mustertasse</em>). A 50,000‑image synthetic dataset was created using domain randomization, and the …</p></p>
                     </div>
                 </div>
                 <div class="mt-auto card-footer">
-                    <span class="float-start">Apr 3, 2021</span>
-                    <a href="/blogs/markdown-syntax/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    <span class="float-start">Feb 18, 2026</span>
+                    <a href="/blogs/dope-training/" class="float-end btn btn-outline-info btn-sm">Read</a>
                 </div>
             </div>
         </div>
@@ -556,24 +594,26 @@ $$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow …</p>
             <div class="card h-100">
                 
                 <div class="card-header">
-                    <a href="/blogs/emoji-support/">
-                        <img src="/images/post.jpg" class="card-img-top" alt="Emoji Support">
+                    <a href="/blogs/digital-twin/">
+                        <img src="/images/blogs/digital-twin/dt-photo.png" class="card-img-top" alt="Technical Description of an Industrial Digital Twin Using NVIDIA Isaac Sim and ROS 2">
                     </a>
                 </div>
                 
                 <div class="card-body bg-transparent p-3 shadow-sm">
-                    <a href="/blogs/emoji-support/" class="primary-font card-title">
-                        <h5 class="card-title bg-transparent" title="Emoji Support">Emoji Support</h5>
+                    <a href="/blogs/digital-twin/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Technical Description of an Industrial Digital Twin Using NVIDIA Isaac Sim and ROS 2">Technical Description of …</h5>
                     </a>
                     <div class="card-text secondary-font">
-                        <p>Emoji can be enabled in a Hugo project in a number of ways. :zap:
-Emoji Support The emojify function can be called directly in templates or Inline Shortcodes.
-To enable emoji globally, set enableEmoji to true in your site’s configuration and then you can type emoji shorthand codes directly in …</p>
+                        <p><blockquote>
+<p>:warning: <strong>Note:</strong> This digital twin is complete and the platform is being used to develop and test new ideas.</p>
+</blockquote>
+<h2 id="abstract">Abstract</h2>
+<p>This article presents the technical description of a laboratory‑validated <strong>industrial digital twin</strong> that integrates physical robotic hardware with a physics‑accurate simulation built …</p></p>
                     </div>
                 </div>
                 <div class="mt-auto card-footer">
-                    <span class="float-start">Apr 3, 2021</span>
-                    <a href="/blogs/emoji-support/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    <span class="float-start">Feb 18, 2026</span>
+                    <a href="/blogs/digital-twin/" class="float-end btn btn-outline-info btn-sm">Read</a>
                 </div>
             </div>
         </div>
@@ -694,6 +734,10 @@ To enable emoji globally, set enableEmoji to true in your site’s configuration
 </script>
 
 
+    <script>
+      
+      window.searchIndexURL = "/index.json";
+    </script>
     <script src="/js/search.js"></script>
 
 

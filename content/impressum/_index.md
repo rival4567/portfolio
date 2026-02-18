@@ -1,6 +1,6 @@
 ---
 title: "Impressum"
-layout: "single"
+layout: "about"
 tags: []
 ---
 
@@ -15,7 +15,7 @@ Parkstrasse 1,
 93413 Cham, Germany  
 
 **Contact:**  
-Email: shivam0(dot)mechatronics(at)gmail(dot)com  
+Email: shivam(at)jleet(dot)com 
 
 **Responsible for content according to § 18 Abs. 2 MStV:**  
 Shivam Shivam

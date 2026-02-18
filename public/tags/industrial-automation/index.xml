@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Industrial Automation on Shivam | Robotics &amp; Automation Engineer</title>
+    <link>http://localhost:1313/tags/industrial-automation/</link>
+    <description>Recent content in Industrial Automation on Shivam | Robotics &amp; Automation Engineer</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/industrial-automation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Robotic Workcell for Automated Bending: A Vision‑Enabled 7‑Axis Cobot, PLC, and Digital‑Twin UI</title>
+      <link>http://localhost:1313/blogs/master-thesis/</link>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/master-thesis/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;&#xA;&lt;p&gt;This work demonstrates a &lt;strong&gt;robotic workcell&lt;/strong&gt; that automates a &lt;strong&gt;sheet‑metal bending machine&lt;/strong&gt; with a &lt;strong&gt;7‑axis collaborative robot&lt;/strong&gt;, &lt;strong&gt;two vision sensors&lt;/strong&gt;, and a &lt;strong&gt;web-based UI&lt;/strong&gt;—the latter serving as a &lt;strong&gt;digital twin&lt;/strong&gt; for visualization and monitoring. The robot performs &lt;strong&gt;automatic loading/unloading&lt;/strong&gt; of sheets; a wrist‑mounted camera enables &lt;strong&gt;sheet detection and localization&lt;/strong&gt;, while a second camera conducts &lt;strong&gt;post-bend angle measurement&lt;/strong&gt; for &lt;strong&gt;closed‑loop quality control&lt;/strong&gt;. A &lt;strong&gt;PLC&lt;/strong&gt; coordinates the bending machine, grippers, and inspection tasks. The proposed system reduces manual labor, increases throughput, and improves consistency of bend accuracy, offering a pragmatic blueprint for &lt;strong&gt;rapid development and deployment&lt;/strong&gt; of robotic bending cells in industrial contexts.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
